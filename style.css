@@ -1,0 +1,199 @@
+@import "css/base.css";
+@import "css/colores.css";
+@import "css/util.css";
+@import "css/animation.css";
+/*Inicio*/
+
+/*MENU*/
+
+.menuPrincipal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 150px;
+  background-color: #f6f6f6;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0 1px 3px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.menuPrincipal.small {
+  height: 90px;
+}
+
+.img_azul_logo {
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+}
+
+.img_azul_logo.small {
+  width: 70%;
+}
+.lista_menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 23px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150px;
+}
+
+.lista_menu.small {
+  font-size: 16px;
+  line-height: 90px;
+}
+
+/*Menu Oculto*/
+.menu_celular {
+  position: absolute;
+  right: 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  line-height: 59px;
+  padding: 0;
+  margin-top: 150px;
+  background-color: white;
+}
+.menuCasi {
+  opacity: 0;
+  z-index: -5;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+  margin-top: -10000px;
+}
+.menuListo {
+  visibility: visible;
+  z-index: 999;
+  opacity: 1;
+  margin-top: 0px;
+}
+.menu_celularEnlace {
+  background-color: #f9f9f9;
+  color: #16415e;
+  display: block;
+}
+.border_bottom_azul {
+  border-bottom: 1px solid #738d9e;
+}
+/*cierre de menu oculto*/
+
+/*Barra de logo y menu de navegacion*/
+
+/*Menu oculto xs y lg*/
+.contenedor_menu_hamburguesa {
+  display: none;
+}
+.menuHA > span:after {
+  content: "";
+  border-bottom: 7px solid #f05351;
+  width: 50px;
+  height: 12px;
+  display: block;
+  cursor: pointer;
+  margin: 5px;
+}
+/*Fin de menu oculto xs y lg*/
+
+/*Fin de la Barra de logo y menu de navegacion*/
+
+/*Titulos*/
+.titulo_secundario {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-size: 90px;
+}
+
+.titulo_terciario {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.titulo_cuaternario {
+  font-size: 26px;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.titulo_quinto {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/*Barra de somos*/
+.back_fondo {
+  background-size: 100% 600px;
+  background-image: url("images/ted.png");
+  width: 100%;
+  background-repeat: no-repeat;
+}
+	.back_fondo_padding{
+		padding: 105px;
+	}
+
+.enlace_tipoBoton {
+  width: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height: 2.5;
+  border-bottom: 1px #ffd25c solid;
+  padding: 10px 20px;
+}
+.enlace_tipoBoton:hover {
+  text-decoration: none;
+  color: #174665;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+  .lista_menu {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1200px) {
+  .lista_menu {
+    padding: 0px 10px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 900px) {
+  .lista_menu {
+    padding: 0px 4px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /*menu oculto xs y lg*/
+  .menu_grande {
+    display: none;
+  }
+  .contenedor_menu_hamburguesa {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 7%;
+    top: 30%;
+  }
+  .back_fondo_padding{
+		padding: 30px 10px;
+		animation: aumenta_padding forwards linear 3s;
+	}
+	.titulo_secundario {
+    font-size: 40px;
+  }
+}

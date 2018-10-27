@@ -1,0 +1,8 @@
+@keyframes aumenta_padding{
+	0%{
+		padding: 30px 10px;
+	}
+	100%{
+		padding: 147px 10px;
+	}
+}
