@@ -128,10 +128,17 @@
   text-align: center;
   font-weight: 500;
 }
+.titulo_sexto{
+  color: white;
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
 /*Barra de somos*/
 .back_fondo {
-  background-size: 100% 600px;
+  background-size: cover;
   background-image: url("images/ted.png");
   width: 100%;
   background-repeat: no-repeat;
@@ -153,6 +160,17 @@
   text-decoration: none;
   color: #174665;
 }
+
+/*footer*/
+
+.img_footer_lod {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.footer_padding{
+  padding: 30px 60px;
+}
+
 
 
 
@@ -195,5 +213,12 @@
 	}
 	.titulo_secundario {
     font-size: 40px;
+  }
+  .imag_peq_go {
+    width: 50%;
+    margin-top: 40px;
+  }
+  .footer_sec{
+    text-align: center;
   }
 }

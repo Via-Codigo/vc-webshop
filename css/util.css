@@ -6,6 +6,9 @@
   .padding_t_lg{
   padding-top: 150px;
   }
+  .padding_md{
+    padding: 40px;
+  }
 .t_center {
   text-align: center;
 }
@@ -28,9 +31,10 @@
 .jcc {
   justify-content: center;
 }
-.margin_left_md{
-  margin-left: 50px;
-}
 .margin_left_sm{
   margin-left: 50px;
+}
+.padding_BT_md{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
