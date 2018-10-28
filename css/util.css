@@ -38,3 +38,12 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.padding_T_md{
+  padding-top: 40px;
+}
+.padding_B_md{
+  padding-bottom: 40px;
+}
+.anchura_media{
+  width: 50%;
+}
