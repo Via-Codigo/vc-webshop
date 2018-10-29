@@ -5,7 +5,7 @@
 /*Inicio*/
 
 .carousel-inner img {
-      /*width: 100%;*/
+      width: 100%;
       height: 100%;
   }
 
@@ -145,7 +145,7 @@
 /*Barra de somos*/
 .back_fondo {
   background-size: cover;
-  background-image: url("images/ted.png");
+  background-image: url("images/portada.jpg");
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -169,13 +169,44 @@
 
 /*footer*/
 
+/*seccion footer inicioo*/
+.footer_sec {
+  background-color: #174665;
+}
+.footer_padding {
+  padding: 0px 0px 40px 6px;
+}
+.lista_menu_footer {
+  display: inline-flex;
+  align-items: center;
+  height: 60px;
+  padding: 10px 13px;
+  color: white !important;
+}
 .img_footer_lod {
   width: 20%;
   margin-bottom: 20px;
 }
-.footer_padding{
-  padding: 30px 60px;
+.background_ubicanos {
+  background-color: #16415e;
+  padding: 18px 36px 37px 83px;
+  margin-bottom: -25px;
 }
+.ul_icon {
+  padding: 0px;
+  display: inline-flex;
+}
+.list_icons {
+  list-style: none;
+  padding: 10px;
+}
+.icon_color_footer {
+  color: #bebdbd;
+}
+.icon_color_footer:hover {
+  color: #ffd25c;
+}
+/*section footer final*/
 
 /*CONTRATENOS*/
 
@@ -208,11 +239,21 @@
   margin-bottom: 30px;
 }
 
+.icon_color{
+  color: #16415e;
+  padding: 15px;
+  font-size: 30px;
+}
+.icon_color:hover{
+  color: #f05351;
+}
+
 /*PORTAFOLIO**/
 
 .ul_portafolio{
   display: inline-flex;
   list-style: none;
+  text-align: center;
 }
   .li_portafolio{
     padding: 4px;
@@ -304,6 +345,187 @@ body{
 
 /*fin de acordeon questioms*/
 
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS - TABLA DE CONTENIDOS
+----------------------------------------------------------------
+
+1. Global styles - Estilos globales
+2. Slider - Slider
+3. Controls (input) - Controles (input)
+4. View article link - Link para ver el artículo
+
+--------------------------------------------------------------*/
+
+/* -------------------------------------------------------------- 
+
+    1. Global styles - Estilos globales
+
+------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------- 
+
+    2. Slider - Slider
+
+------------------------------------------------------------- */
+.container_exclusivo {
+  width:96%;
+  max-width: 500px;
+  margin:0 auto;
+  position:relative;
+  padding-bottom:30px;
+  overflow:hidden;
+}
+
+blockquote {
+  background-color: #DB532B;
+  box-shadow: 0 5px 2px rgba(0,0,0,0.1);
+  color:white;
+  margin:14px 0px;
+  padding:30px;
+  position:relative;
+  transition: background-color 0.6s linear;
+}
+
+blockquote:after { 
+  border: solid transparent; 
+  border-left-color:#DA532B;
+  border-top-color: #DA532B;
+  border-width: 10px; 
+  content: " "; 
+  height: 0; 
+  left: 10%; 
+  position: absolute; 
+  top: 100%; 
+  width: 0; 
+}
+
+#second:checked ~ .two blockquote {
+  background-color:purple;
+}
+
+.two blockquote:after{
+  border: solid transparent; 
+  border-top-color: purple;
+  border-left-color:purple;
+  border-width: 10px;
+}
+
+#third:checked ~ .three blockquote{
+  background-color:#54885F;
+}
+
+.three blockquote:after{
+  border: solid transparent; 
+  border-top-color: #54885F;
+  border-left-color: #54885F;
+  border-width: 10px;
+}
+
+.quotes{
+  position:absolute;
+  color:rgba(255,255,255,0.5);
+  font-size:5em;
+}
+
+.leftq{
+  top:-25px;
+  left:5px;
+}
+
+.rightq{
+  bottom:-10px;
+  right:5px;
+}
+.slide_testimonios{
+  position:absolute;
+  transform: translateX(-100%);
+  opacity:0;
+  top: 0;
+  transition: transform 0.6s ease-in, opacity 0.6s ease-in;
+}
+
+#first:checked ~ div.one {
+  position: relative;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#second:checked ~ div.two {
+  position: relative;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#third:checked ~ div.three {
+  position: relative;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* -------------------------------------------------------------- 
+
+    3. Controls (input) - Controles (input)
+
+------------------------------------------------------------- */
+input[type="radio"] {
+position: absolute;
+padding: 0;
+border: 0;
+left: -100%;
+}
+
+label {
+  display:block;
+  width:30%;
+  border: 4px solid #16415e;
+  position:absolute;
+  bottom:5px;
+  cursor: pointer;
+  transition: border-color 0.3s linear;
+  left: 3%;
+}
+
+label.second {
+  left:35%;
+}
+label.third {
+  left:67%;
+}
+
+#first:checked ~ label.first {
+  border-width:6px;
+  border-color:#DB532B;
+}
+
+#second:checked ~ label.second {
+  border-width:6px; border-color:purple;
+}
+
+#third:checked ~ label.third {
+  border:6px solid #54885F;
+}
+
+/* -------------------------------------------------------------- 
+
+    4. View article link - Link para ver el artículo
+
+------------------------------------------------------------- */
+.eb-logo {
+  float: right;
+}
+
+.eb-logo img {
+  width: 65px;
+}
+.name_font_size{
+  font-size: 65px;
+}
+
+
+
+
 
 
 @media screen and (max-width: 1440px) {
@@ -321,6 +543,9 @@ body{
   .lista_menu {
     padding: 0px 4px;
     font-size: 14px;
+  }
+  .footer_padding {
+    text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
@@ -348,5 +573,18 @@ body{
   }
   .footer_sec{
     text-align: center;
+  }
+  .footer_padding{
+   padding: 0px 0px 40px 0px;
+  }
+  .margin_left_sm{
+    margin-left: 0px;
+  }
+  .background_ubicanos{
+    padding: 0px;
+  }
+  .ul_portafolio{
+    padding: 0px;
+    display: block;
   }
 }
