@@ -28,6 +28,9 @@
 .display_f {
   display: flex;
 }
+.align_items_c{
+  align-items: center;
+}
 .jcc {
   justify-content: center;
 }
