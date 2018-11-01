@@ -2,6 +2,7 @@
 @import "css/colores.css";
 @import "css/util.css";
 @import "css/animation.css";
+@import "css/lineasAnimadas.css";
 /*Inicio*/
 
 .carousel-inner img {
@@ -251,10 +252,11 @@
 /*PORTAFOLIO**/
 
 .ul_portafolio{
-  display: inline-flex;
+  display: flex;
   list-style: none;
   text-align: center;
   padding: 0px;
+  justify-content: center;
 }
   .li_portafolio{
     padding: 4px 6px;
@@ -571,6 +573,7 @@ label.third {
     color: #ccc;
     padding: 10px 0;
     height: 150px;
+    font-size: 20px;
 }
 
 /* Add Animation */

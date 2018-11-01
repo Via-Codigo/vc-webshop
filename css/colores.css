@@ -40,3 +40,7 @@
 .back_fondo_white{
 	background-color: white;
 }
+.back_fondo_azul{
+	background-color: #16415e;
+	border: white 2px solid;
+}

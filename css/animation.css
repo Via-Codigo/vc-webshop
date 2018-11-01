@@ -6,3 +6,12 @@
 		padding: 147px 10px;
 	}
 }
+
+@keyframes movimiento_de_linea {
+  0% {
+    transform: rotateX(88deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
