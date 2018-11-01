@@ -1,91 +1,96 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Web Shop</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="../bootstrap.css">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="../style.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+
+<head>
+	<title>Web Shop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	 crossorigin="anonymous">
-	</head>
-	<body>
-		<!--Inicio de section logo-menu -->
-		<header class="menuPrincipal" id="menuPrincipal">
-			<h1 class="logo_principal">
-				<a href="../inicio.html"><img src="../images/logo_azul.png" class="img_azul_logo" id="logoTop"></a>
-			</h1>
-			<nav class="menu_navegacion">
-				<ul class="menu_grande">
-					<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_AzulVC" href="../inicio.html">INICIO</a></li>
-					<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_AzulVC" href="../contratenos.html">CONTRATENOS</a></li>
-					<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_AzulVC" href="../portafolio.html">PORTAFOLIO</a></li>
+</head>
+
+<body>
+	<!--Inicio de section logo-menu -->
+	<header class="menuPrincipal" id="menuPrincipal">
+		<h1 class="logo_principal">
+			<a href="../inicio.html"><img src="../images/logo_azul.png" class="img_azul_logo" id="logoTop"></a>
+		</h1>
+		<nav class="menu_navegacion">
+			<ul class="menu_grande">
+				<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_AzulVC" href="../inicio.html">INICIO</a></li>
+				<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_AzulVC" href="../contratenos.html">CONTRATENOS</a></li>
+				<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_AzulVC" href="../portafolio.html">PORTAFOLIO</a></li>
+			</ul>
+			<div class="contenedor_menu_hamburguesa">
+				<div id="menuH" class="menuHA">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div id="menuApa" class="menuCasi">
+				<ul class="menu_celular">
+					<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../inicio.html">INICIO</a></li>
+					<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../contratenos.html">CONTRATANOS</a></li>
+					<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../portafolio.html">PORTAFOLIO</a></li>
 				</ul>
-				<div class="contenedor_menu_hamburguesa">
-					<div id="menuH" class="menuHA">
-						<span></span>
-						<span></span>
-						<span></span>
+			</div>
+		</nav>
+	</header>
+	<!--Fin de section logo-menu -->
+	<main>
+		<div class="container padding_t_lg t_center">
+			<article>
+				<h1 class="padding_BT_md">Via Codigo</h1>
+				<div>
+					<img id="myImg" src="../images/equipo5.jpg" alt="Via codigo" style="width:100%;max-width:300px">
+
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img01">
+						<div id="caption"></div>
 					</div>
 				</div>
-				<div id="menuApa" class="menuCasi">
-					<ul class="menu_celular">
-						<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../inicio.html">INICIO</a></li>
-						<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../contratenos.html">CONTRATANOS</a></li>
-						<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../portafolio.html">PORTAFOLIO</a></li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-		<!--Fin de section logo-menu -->
-		<div class="container padding_t_lg t_center">
-					 <h1 class="padding_BT_md">Via Codigo</h1>
-				<div class="col-lg-12">
-							<img id="myImg" src="../images/equipo5.jpg" alt="Via codigo" style="width:100%;max-width:300px">
-
-							<!-- The Modal -->
-							<div id="myModal" class="modal">
-							  <span class="close">&times;</span>
-							  <img class="modal-content" id="img01">
-							  <div id="caption"></div>
-							</div>
-				</div>
 				<h5 class="titulo_quinto padding_BT_md">TECNICAS USADAS</h5>
-					<ul class="ul_portafolio">
-							 		<li class="li_portafolio color_AzulVC">Orden</li>
-							 		<li class="li_portafolio color_AzulVC">Carousel</li>
-							 		<li class="li_portafolio color_AzulVC">Orden</li>
-							 		<li class="li_portafolio color_AzulVC">Carousel</li>
-							 		<li class="li_portafolio color_AzulVC">Orden</li>
-							 		<li class="li_portafolio color_AzulVC">Orden</li>
-							 	</ul>
-					<div class="color_AzulVC div_centrado anchura_media padding_B_md">
-								<p>
-									<span class="color_RojoVC">Via codigo</span> es un emprendimiento social que tiene como objetivo el darle la
-									oportunidad de formarse como desarrolladores web a hombres y mujeres jóvenes en condiciones de vulnerabilidad y
-									abandono social.
-								</p>
-								<p>
-									Jóvenes que cumplen con un criterio, en el cual bajo el status quo actual, les es difícil tener acceso a un
-									ingreso remunerado adecuado.
+				<ul class="ul_portafolio">
+					<li class="li_portafolio color_AzulVC">Orden</li>
+					<li class="li_portafolio color_AzulVC">Carousel</li>
+					<li class="li_portafolio color_AzulVC">Orden</li>
+					<li class="li_portafolio color_AzulVC">Carousel</li>
+					<li class="li_portafolio color_AzulVC">Orden</li>
+					<li class="li_portafolio color_AzulVC">Orden</li>
+				</ul>
+				<div class="color_AzulVC div_centrado anchura_media padding_B_md">
+					<p>
+						<span class="color_RojoVC">Via codigo</span> es un emprendimiento social que tiene como objetivo el darle la
+						oportunidad de formarse como desarrolladores web a hombres y mujeres jóvenes en condiciones de vulnerabilidad y
+						abandono social.
+					</p>
+					<p>
+						Jóvenes que cumplen con un criterio, en el cual bajo el status quo actual, les es difícil tener acceso a un
+						ingreso remunerado adecuado.
 
-								</p>
-								<p>
-									Inicialmente desarrollamos un primer proyecto “Estación La Paz” en el CJRD Maranguita. Este proyecto esta
-									enfocado en jóvenes infractores los cuales hoy en día están marginados socio-económicamente de la sociedad. Via
-									Código, a través del Coding busca crear un nexo entre jóvenes infractores y la sociedad en general.
-								</p>
-								<p>
-									Jóvenes que cumplen con un criterio, en el cual bajo el status quo actual, les es difícil tener acceso a un
-									ingreso remunerado adecuado.
+					</p>
+					<p>
+						Inicialmente desarrollamos un primer proyecto “Estación La Paz” en el CJRD Maranguita. Este proyecto esta
+						enfocado en jóvenes infractores los cuales hoy en día están marginados socio-económicamente de la sociedad. Via
+						Código, a través del Coding busca crear un nexo entre jóvenes infractores y la sociedad en general.
+					</p>
+					<p>
+						Jóvenes que cumplen con un criterio, en el cual bajo el status quo actual, les es difícil tener acceso a un
+						ingreso remunerado adecuado.
 
-								</p>
-								<a href="../portafolio.html" class="color_RojoVC enlace_tipoBoton t_center">VER MAS PROYECTOS</a>
-							</div>
+					</p>
+					<a href="../portafolio.html" class="color_RojoVC enlace_tipoBoton t_center">VER MAS PROYECTOS</a>
+				</div>
+			</article>
 		</div>
-
+	</main>
 	<footer class="footer_sec">
 		<section class="container-fluid footer_padding">
 			<div class="row">
@@ -154,5 +159,6 @@
 	 crossorigin="anonymous"></script>
 	<script type="text/javascript" src="../bootstrap.js"></script>
 	<script type="text/javascript" src="../app.js"></script>
-	</body>	
+</body>
+
 </html>
