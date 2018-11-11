@@ -16,18 +16,21 @@ function resizeHeaderOnScroll() {
     menuPrincipal = document.getElementById("menuPrincipal"),
     logoTop = document.getElementById("logoTop"),
     itemsMenu = document.getElementsByClassName("itemMenu");
+    menuC = document.getElementById("menuCelular");
 
   if (distanceY > shrinkOn) {
     menuPrincipal.classList.add("small");
     logoTop.classList.add("small");
     for (let i = 0; i < itemsMenu.length; i++) {
       itemsMenu[i].classList.add("small");
+      menuC.style.marginTop = "88px";
     }
   } else {
     menuPrincipal.classList.remove("small");
     logoTop.classList.remove("small");
     for (let i = 0; i < itemsMenu.length; i++) {
       itemsMenu[i].classList.remove("small");
+      menuC.style.marginTop = "150px";
     }
   }
 }

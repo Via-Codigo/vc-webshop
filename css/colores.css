@@ -44,3 +44,10 @@
 	background-color: #16415e;
 	border: white 2px solid;
 }
+.back_fondo_rojo{
+	background-color: #f05351;
+	text-decoration: none;
+	padding: 8px;
+	 line-height: 40px;
+	 border-radius: 3px;
+}

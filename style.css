@@ -2,7 +2,6 @@
 @import "css/colores.css";
 @import "css/util.css";
 @import "css/animation.css";
-@import "css/lineasAnimadas.css";
 /*Inicio*/
 
 .carousel-inner img {
@@ -10,7 +9,12 @@
       height: 100%;
   }
 
+/*SUSCRIBE*/ 
 
+.line{
+  width: 3px;
+  height: 40px;
+}
 /*MENU*/
 
 .menuPrincipal {
@@ -121,6 +125,7 @@
   margin-bottom: 20px;
   padding-left: 10px;
   font-weight: 500;
+  border-left: 3px solid #f05351;
 }
 
 .titulo_cuaternario {
@@ -284,7 +289,7 @@ body{
 
 .accordion-container {
     width: 100%;
-    margin: 0 0 20px;
+    margin: 0 0 20px -12px;
     clear:both;
 }
 
@@ -647,6 +652,9 @@ label.third {
   .menu_grande {
     display: none;
   }
+  blockquote{
+    font-size: 18px;
+  }
   .contenedor_menu_hamburguesa {
     display: flex;
     align-items: center;
@@ -655,11 +663,17 @@ label.third {
     top: 30%;
   }
   .back_fondo_padding{
-		padding: 30px 10px;
-		animation: aumenta_padding forwards linear 3s;
+		padding: 147px 10px;
 	}
 	.titulo_secundario {
     font-size: 40px;
+  }
+  .titulo_quinto{
+    font-size: 14px;
+  }
+  .accordion-titulo{
+    font-size: 14px;
+    padding: 21px;
   }
   .imag_peq_go {
     width: 50%;
@@ -683,5 +697,9 @@ label.third {
   }
   .anchura_media{
     width: 100%;
+    padding: 40px;
+  }
+  .accordion-titulo span.toggle-icon{
+    top: -13px;
   }
 }

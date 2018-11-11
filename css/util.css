@@ -12,6 +12,9 @@
 .t_center {
   text-align: center;
 }
+.margin10{
+  margin: 10px;
+}
 .margin_b_sm{
   margin-bottom: 30px;
 }
@@ -21,6 +24,9 @@
 .margin_bottomMD {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.padding_botton_sm{
+  padding: 15px 35px;
 }
 .display_inline_f {
   display: inline-flex;
