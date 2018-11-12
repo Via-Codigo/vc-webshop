@@ -28,7 +28,12 @@
   width: 100%;
   z-index: 999;
 }
-
+.logo_principal{
+  width: 200px;
+}
+.logo_blanco_letras{
+  width: 230px;
+}
 .menuPrincipal.small {
   height: 90px;
 }
@@ -36,7 +41,6 @@
 .img_azul_logo {
   overflow: hidden;
   position: relative;
-  top: 10px;
 }
 
 .img_azul_logo.small {
