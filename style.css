@@ -126,7 +126,8 @@
 .titulo_terciario {
   font-size: 40px;
   margin-left: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-top: 30px;
   padding-left: 10px;
   font-weight: 500;
   border-left: 3px solid #f05351;
@@ -282,7 +283,7 @@ body{
 #container-main{
     margin:40px auto;
     width:95%;
-    min-width:320px;
+    min-width:305px;
     max-width:960px;
 }
 
@@ -327,7 +328,7 @@ body{
     position: absolute;
     top: 10px;
     right: 20px;
-    font-size: 38px;
+    font-size: 42px;
     font-weight:bold;
 }
 
@@ -398,10 +399,10 @@ blockquote {
   box-shadow: 0 5px 2px rgba(0,0,0,0.1);
   color:white;
   margin:14px 0px;
-  padding:58px;
+  padding:25px;
   position:relative;
   transition: background-color 0.6s linear;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 blockquote:after { 
@@ -704,6 +705,17 @@ label.third {
     padding: 40px;
   }
   .accordion-titulo span.toggle-icon{
-    top: -13px;
+    top: 4px;
+    right: 10px;
   }
+  .titulo_terciario{
+    font-size: 30px;
+  }
+  .anchura_large{
+    width: 100%;
+    padding: 20px;
+  }
+    .padding_md{
+      padding: 9px;
+    }
 }
