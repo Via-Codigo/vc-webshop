@@ -1,205 +1,289 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Web Shop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-	<title>Web Shop</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../bootstrap.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-	 crossorigin="anonymous">
-</head>
+  <body>
+    <!-- Inicio de section logo-menu -->
+    <header class="menuPrincipal" id="menuPrincipal">
+      <h1 class="logo_principal">
+        <a href="index.html"
+          ><img
+            src="../images/logo_VCWBlanco.svg"
+            class="img_azul_logo logo_blanco_letras"
+            id="logoTop"
+        /></a>
+      </h1>
+      <nav class="menu_navegacion">
+        <ul class="menu_grande">
+          <li class="lista_menu itemMenu">
+            <a class="hover_rojoVC  color_AzulVC" href="../index.html"
+              >INICIO</a
+            >
+          </li>
+          <li class="lista_menu itemMenu">
+            <a class="hover_rojoVC  color_AzulVC" href="../portafolio.html"
+              >PORTAFOLIO</a
+            >
+          </li>
+          <li class="lista_menu itemMenu">
+            <a href="../contratenos.html"
+              ><span class="back_fondo_rojo hover_AmarilloVC color_whiteVC"
+                >CONTRATENOS</span
+              ></a
+            >
+          </li>
+        </ul>
+        <div class="contenedor_menu_hamburguesa">
+          <div id="menuH" class="menuHA">
+            <span></span> <span></span> <span></span>
+          </div>
+        </div>
+        <div id="menuApa" class="menuCasi">
+          <ul class="menu_celular" id="menuCelular">
+            <li class="border_bottom_azul">
+              <a class="menu_celularEnlace" href="../index.html">INICIO</a>
+            </li>
+            <li class="border_bottom_azul">
+              <a class="menu_celularEnlace" href="../portafolio.html"
+                >PORTAFOLIO</a
+              >
+            </li>
+            <li class="border_bottom_azul">
+              <a class="menu_celularEnlace" href="../contratenos.html"
+                >CONTRATANOS</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin de section logo-menu -->
+    <main>
+      <div class="container padding_t_lg">
+        <article>
+          <div class="t_center">
+            <div class="display_f jcc padding_T_md">
+              <h3 class="titulo_terciario color_AzulVC">
+                VIA <span class="color_RojoVC ">CODIGO</span>
+              </h3>
+            </div>
+            <div class="padding_BT_md">
+              <img
+                id="myImg"
+                src="../images/viacodigo.png"
+                alt="Via codigo"
+                style="width:100%;max-width:550px"
+              />
 
-<body>
-	<!--Inicio de section logo-menu -->
-	<header class="menuPrincipal" id="menuPrincipal">
-		<h1 class="logo_principal">
-			<a href="index.html"><img src="../images/logo_VCWBlanco.svg" class="img_azul_logo logo_blanco_letras" id="logoTop"></a>
-		</h1>
-		<nav class="menu_navegacion">
-			<ul class="menu_grande">
-				<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_AzulVC" href="../index.html">INICIO</a></li>
-				<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_AzulVC" href="../portafolio.html">PORTAFOLIO</a></li>
-				<li class="lista_menu itemMenu"><a href="../contratenos.html"><span class="back_fondo_rojo hover_AmarilloVC color_whiteVC">CONTRATENOS</span></a></li>
-			</ul>
-			<div class="contenedor_menu_hamburguesa">
-				<div id="menuH" class="menuHA">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
-			<div id="menuApa" class="menuCasi">
-				<ul class="menu_celular" id="menuCelular">
-					<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../index.html">INICIO</a></li>
-					<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../portafolio.html">PORTAFOLIO</a></li>
-					<li class="border_bottom_azul"><a class="menu_celularEnlace" href="../contratenos.html">CONTRATANOS</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-	<!--Fin de section logo-menu -->
-	<main>
-		<div class="container padding_t_lg">
-			<article>
-				<div class="t_center">
-					<div class="display_f jcc padding_T_md">
-						<h3 class="titulo_terciario color_AzulVC">VIA
-							<span class="color_RojoVC ">CODIGO</span>
-						</h3>
-					</div>
-					<div class="padding_BT_md">
-						<img id="myImg" src="../images/viacodigo.png" alt="Via codigo" style="width:100%;max-width:550px">
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01" />
+                <div id="caption"></div>
+              </div>
+            </div>
+            <div class="back_fondo_azul anchura_media div_centrado">
+              <h5 class="titulo_quinto color_whiteVC">TECNICAS USADAS</h5>
+              <ul class="ul_portafolio">
+                <li class="li_portafolio color_whiteVC">Guía de Estilos</li>
+                <li class="li_portafolio color_whiteVC">Carousel</li>
+                <li class="li_portafolio color_whiteVC">HTML Semántico</li>
+                <li class="li_portafolio color_whiteVC">CSS3</li>
+                <li class="li_portafolio color_whiteVC">Vanilla JS</li>
+                <li class="li_portafolio color_whiteVC">Optimizada</li>
+              </ul>
+            </div>
+          </div>
+          <div class="color_AzulVC div_centrado anchura_media padding_B_md">
+            <p>
+              <span class="color_RojoVC">Via codigo</span> es un emprendimiento
+              social que tiene como objetivo el darle la oportunidad de formarse
+              como desarrolladores web a hombres y mujeres jóvenes en
+              condiciones de vulnerabilidad y abandono social.
+            </p>
+            <p>
+              Jóvenes que cumplen con un criterio, en el cual bajo el status quo
+              actual, les es difícil tener acceso a un ingreso remunerado
+              adecuado.
+            </p>
+            <p>
+              Inicialmente desarrollamos un primer proyecto “Estación La Paz” en
+              el CJRD Maranguita. Este proyecto esta enfocado en jóvenes
+              infractores los cuales hoy en día están marginados
+              socio-económicamente de la sociedad. Via Código, a través del
+              Coding busca crear un nexo entre jóvenes infractores y la sociedad
+              en general.
+            </p>
+            <p>
+              Jóvenes que cumplen con un criterio, en el cual bajo el status quo
+              actual, les es difícil tener acceso a un ingreso remunerado
+              adecuado.
+            </p>
+            <a
+              href="../portafolio.html"
+              class="color_RojoVC enlace_tipoBoton t_center"
+              >VER MAS PROYECTOS</a
+            >
+          </div>
+        </article>
+      </div>
+      <!-- Seccion de suscribe -->
+      <section class="container-fluid t_center padding_md back_fondo_white">
+        <div class="margin_b_sm margin_t_sm">
+          <div class="display_f jcc">
+            <h3 class="titulo_terciario color_AzulVC">CONTRATANOS</h3>
+          </div>
+          <div class="row jcc">
+            <div class="col-lg-6 t_center">
+              <div><img src="../images/line.png" class="line" /></div>
+              <div class="color_grisLetras margin_bottomMD">
+                <p>
+                  Quieres ser parte de Via Condigo? <br />
+                  Suscribete ahora
+                  <span class="color_RojoVC">Apoyanos</span> nosotros te
+                  ubicamos.
+                </p>
+              </div>
+              <div>
+                <form class="container">
+                  <div class="row">
+                    <div class="col-lg-12 col-xs-12 sin_padding">
+                      <a href="../contratenos.html">
+                        <span
+                          class="back_fondo_rojo color_whiteVC hover_AmarilloVC padding_botton_sm"
+                          >SUSCRIBETE</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin de seccion de suscribe -->
+    </main>
+    <footer class="footer_sec">
+      <section class="container-fluid footer_padding">
+        <div class="row">
+          <div class="col-lg-8 col-xs-12 padding_left">
+            <a href="../index.html"
+              ><img
+                src="../images/logo_VCWAzul.svg"
+                class="img_azul_logo logo_blanco_letras"
+                id="logoTop"
+            /></a>
+            <nav class="menu_navegacion">
+              <ul class="menu_grande">
+                <li class="lista_menu itemMenu">
+                  <a class="hover_rojoVC  color_whiteVC" href="../index.html"
+                    >INICIO</a
+                  >
+                </li>
+                <li class="lista_menu itemMenu">
+                  <a
+                    class="hover_rojoVC  color_whiteVC"
+                    href="../contratenos.html"
+                    >CONTRATENOS</a
+                  >
+                </li>
+                <li class="lista_menu itemMenu">
+                  <a
+                    class="hover_rojoVC  color_whiteVC"
+                    href="../portafolio.html"
+                    >PORTAFOLIO</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="color_footer_enlace margin_left_sm">
+              <p>Copyright © 2017 via codigo todos los derechos reservados</p>
+            </div>
+          </div>
+          <div class="col-lg-4 background_ubicanos">
+            <div class="margin_bottomMD color_footer_enlace">
+              <p>
+                Manuel Olguín 335, Of.101, <br />
+                Santiago de Surco, <br />
+                Lima, Perú
+              </p>
+            </div>
+            <div class="margin_bottomMD">
+              <p>
+                <a
+                  href="callto:51941476481"
+                  class="color_whiteVC hover_AmarilloVC"
+                  >941 476 481</a
+                >
+                <br />
+                <a
+                  href="mailto:info@viacodigo.com"
+                  class="color_whiteVC hover_AmarilloVC"
+                  >info@viacodigo.com</a
+                >
+              </p>
+            </div>
+            <div class="margin_bottomMD">
+              <ul class="ul_icon">
+                <li class="list_icons">
+                  <a href="#" class="icon_color_footer">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list_icons">
+                  <a href="#" class="icon_color_footer">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="list_icons">
+                  <a href="#" class="icon_color_footer">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li class="list_icons">
+                  <a href="#" class="icon_color_footer">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
 
-						<!-- The Modal -->
-						<div id="myModal" class="modal">
-							<span class="close">&times;</span>
-							<img class="modal-content" id="img01">
-							<div id="caption"></div>
-						</div>
-					</div>
-					<div class="back_fondo_azul anchura_media div_centrado">
-						<h5 class="titulo_quinto color_whiteVC">TECNICAS USADAS</h5>
-						<ul class="ul_portafolio">
-							<li class="li_portafolio color_whiteVC">Orden</li>
-							<li class="li_portafolio color_whiteVC">Carousel</li>
-							<li class="li_portafolio color_whiteVC">Orden</li>
-							<li class="li_portafolio color_whiteVC">Carousel</li>
-							<li class="li_portafolio color_whiteVC">Orden</li>
-							<li class="li_portafolio color_whiteVC">Orden</li>
-						</ul>
-					</div>
-				</div>
-				<div class="color_AzulVC div_centrado anchura_media padding_B_md">
-					<p>
-						<span class="color_RojoVC">Via codigo</span> es un emprendimiento social que tiene como objetivo el darle la
-						oportunidad de formarse como desarrolladores web a hombres y mujeres jóvenes en condiciones de vulnerabilidad y
-						abandono social.
-					</p>
-					<p>
-						Jóvenes que cumplen con un criterio, en el cual bajo el status quo actual, les es difícil tener acceso a un
-						ingreso remunerado adecuado.
-
-					</p>
-					<p>
-						Inicialmente desarrollamos un primer proyecto “Estación La Paz” en el CJRD Maranguita. Este proyecto esta
-						enfocado en jóvenes infractores los cuales hoy en día están marginados socio-económicamente de la sociedad. Via
-						Código, a través del Coding busca crear un nexo entre jóvenes infractores y la sociedad en general.
-					</p>
-					<p>
-						Jóvenes que cumplen con un criterio, en el cual bajo el status quo actual, les es difícil tener acceso a un
-						ingreso remunerado adecuado.
-
-					</p>
-					<a href="../portafolio.html" class="color_RojoVC enlace_tipoBoton t_center">VER MAS PROYECTOS</a>
-				</div>
-			</article>
-		</div>
-		<!--Seccion de suscribe-->
-		<section class="container-fluid t_center padding_md back_fondo_white">
-			<div class="margin_b_sm margin_t_sm">
-				<div class="display_f jcc">
-						<h3 class="titulo_terciario color_AzulVC">CONTRATANOS
-						</h3>
-				</div>
-					<div class="row jcc">
-						<div class="col-lg-6 t_center">
-							<div>
-								<img src="../images/line.png" class="line">
-							</div>
-							<div class="color_grisLetras margin_bottomMD">
-								<p>Quieres ser parte de Via Condigo?
-									<br>
-									Suscribete ahora <span class="color_RojoVC">Apoyanos</span> nosotros te ubicamos.</p>
-							</div>
-							<div>
-								<form class="container">
-									<div class="row">
-										<div class="col-lg-12 col-xs-12 sin_padding">
-											<a href="../contratenos.html">
-												<span  class="back_fondo_rojo color_whiteVC hover_AmarilloVC padding_botton_sm">SUSCRIBETE</span>
-											</a>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-			</div>
-		</section>
-	<!--Fin de seccion de suscribe-->
-	</main>
-	<footer class="footer_sec">
-		<section class="container-fluid footer_padding">
-			<div class="row">
-				<div class="col-lg-8 col-xs-12 padding_left">
-					<a href="../index.html"><img src="../images/logo_VCWAzul.svg" class="img_azul_logo logo_blanco_letras" id="logoTop"></a>
-					<nav class="menu_navegacion">
-						<ul class="menu_grande">
-							<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_whiteVC" href="../index.html">INICIO</a></li>
-							<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_whiteVC" href="../contratenos.html">CONTRATENOS</a></li>
-							<li class="lista_menu itemMenu"><a class="hover_rojoVC  color_whiteVC" href="../portafolio.html">PORTAFOLIO</a></li>
-						</ul>
-					</nav>
-					<div class="color_footer_enlace margin_left_sm">
-						<p>Copyright © 2017 via codigo todos los derechos reservados</p>
-					</div>
-				</div>
-				<div class="col-lg-4 background_ubicanos">
-					<div class="margin_bottomMD color_footer_enlace">
-						<p>Manuel Olguín 335, Of.101,
-							<br>
-							Santiago de Surco,
-							<br>
-							Lima, Perú
-						</p>
-					</div>
-					<div class="margin_bottomMD">
-						<p>
-							<a href="callto:51941476481" class="color_whiteVC hover_AmarilloVC">941 476 481</a>
-							<br>
-							<a href="mailto:info@viacodigo.com" class="color_whiteVC hover_AmarilloVC">info@viacodigo.com</a>
-						</p>
-					</div>
-					<div class="margin_bottomMD">
-						<ul class="ul_icon">
-							<li class="list_icons">
-								<a href="#" class="icon_color_footer">
-									<i class="fab fa-facebook-f"></i>
-								</a>
-							</li>
-							<li class="list_icons">
-								<a href="#" class="icon_color_footer">
-									<i class="fab fa-linkedin-in"></i>
-								</a>
-							</li>
-							<li class="list_icons">
-								<a href="#" class="icon_color_footer">
-									<i class="fab fa-youtube"></i>
-								</a>
-							</li>
-							<li class="list_icons">
-								<a href="#" class="icon_color_footer">
-									<i class="fab fa-twitter"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-	</footer>
-
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-	 crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	 crossorigin="anonymous"></script>
-	<script type="text/javascript" src="../bootstrap.js"></script>
-	<script type="text/javascript" src="../app.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../bootstrap.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
+  </body>
 </html>
