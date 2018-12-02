@@ -1,0 +1,63 @@
+{
+  "ftp://dolamrothseo.com@webshopvc@dolamrothseo.com": {
+    ".ftpquota": {
+      "type": "-",
+      "size": 4,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".htaccess": {
+      "type": "-",
+      "size": 107,
+      "lmtime": 0,
+      "modified": false
+    },
+    "app.js": {
+      "type": "-",
+      "size": 2251,
+      "lmtime": 0,
+      "modified": false
+    },
+    "bootstrap.css": {
+      "type": "-",
+      "size": 173565,
+      "lmtime": 0,
+      "modified": false
+    },
+    "bootstrap.js": {
+      "type": "-",
+      "size": 123765,
+      "lmtime": 0,
+      "modified": false
+    },
+    "cgi-bin": {},
+    "contratenos.html": {
+      "type": "-",
+      "size": 11466,
+      "lmtime": 0,
+      "modified": false
+    },
+    "css": {},
+    "images": {},
+    "index.html": {
+      "type": "-",
+      "size": 18558,
+      "lmtime": 0,
+      "modified": false
+    },
+    "portafolio.html": {
+      "type": "-",
+      "size": 17819,
+      "lmtime": 0,
+      "modified": false
+    },
+    "proyectos": {},
+    "style.css": {
+      "type": "-",
+      "size": 12250,
+      "lmtime": 0,
+      "modified": false
+    }
+  },
+  "$version": 1
+}
