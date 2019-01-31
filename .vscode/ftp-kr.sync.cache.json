@@ -1,14 +1,23 @@
 {
-  "ftp://dolamrothseo.com@webshopvc@dolamrothseo.com": {
+  "ftp://viacodigo.com@webshop@viacodigo.com": {
     ".ftpquota": {
       "type": "-",
-      "size": 4,
+      "size": 13,
       "lmtime": 0,
       "modified": false
     },
+    ".git": {},
     ".htaccess": {
       "type": "-",
-      "size": 107,
+      "size": 3216,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".vscode": {},
+    ".well-known": {},
+    "README.md": {
+      "type": "-",
+      "size": 3292,
       "lmtime": 0,
       "modified": false
     },
@@ -30,10 +39,9 @@
       "lmtime": 0,
       "modified": false
     },
-    "cgi-bin": {},
     "contratenos.html": {
       "type": "-",
-      "size": 11466,
+      "size": 11467,
       "lmtime": 0,
       "modified": false
     },
@@ -41,13 +49,13 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 18558,
+      "size": 41172,
       "lmtime": 0,
       "modified": false
     },
     "portafolio.html": {
       "type": "-",
-      "size": 17819,
+      "size": 17843,
       "lmtime": 0,
       "modified": false
     },
@@ -55,6 +63,12 @@
     "style.css": {
       "type": "-",
       "size": 12250,
+      "lmtime": 0,
+      "modified": false
+    },
+    "vc-webshop.zip": {
+      "type": "-",
+      "size": 5945781,
       "lmtime": 0,
       "modified": false
     }
