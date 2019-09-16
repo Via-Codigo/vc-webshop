@@ -1,4 +1,4 @@
-@import "css/base.css";
+  @import "css/base.css";
 @import "css/colores.css";
 @import "css/util.css";
 @import "css/animation.css";
@@ -436,6 +436,17 @@ blockquote:after {
   border-width: 10px;
 }
 
+#fourth:checked ~ .fourth blockquote {
+  background-color: purple;
+}
+
+.fourth blockquote:after {
+  border: solid transparent;
+  border-top-color: purple;
+  border-left-color: purple;
+  border-width: 10px;
+}
+
 .quotes {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
@@ -477,6 +488,11 @@ blockquote:after {
   transform: translateY(0);
 }
 
+#fourth:checked ~ div.fourth{
+  position: relative;
+  opacity: 1;
+  transform: translateY(0);
+}
 /* -------------------------------------------------------------- 
 
     3. Controls (input) - Controles (input)
@@ -491,7 +507,7 @@ input[type="radio"] {
 
 label {
   display: block;
-  width: 30%;
+  width: 20%;
   border: 4px solid #16415e;
   position: absolute;
   bottom: 5px;
@@ -501,12 +517,14 @@ label {
 }
 
 label.second {
-  left: 35%;
+  left: 28%;
 }
 label.third {
-  left: 67%;
+  left: 52%;
 }
-
+label.fourth {
+  left: 77%; 
+}
 #first:checked ~ label.first {
   border-width: 4px;
   border-color: #db532b;
@@ -519,6 +537,10 @@ label.third {
 
 #third:checked ~ label.third {
   border: 4px solid #54885f;
+}
+
+#fourth:checked ~ label.fourth {
+  border: 4px  solid silver;
 }
 
 /* -------------------------------------------------------------- 
