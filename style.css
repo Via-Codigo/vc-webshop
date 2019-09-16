@@ -437,13 +437,13 @@ blockquote:after {
 }
 
 #fourth:checked ~ .fourth blockquote {
-  background-color: purple;
+  background-color: gold;
 }
 
 .fourth blockquote:after {
   border: solid transparent;
-  border-top-color: purple;
-  border-left-color: purple;
+  border-top-color: silver;
+  border-left-color: silver;
   border-width: 10px;
 }
 
@@ -540,7 +540,7 @@ label.fourth {
 }
 
 #fourth:checked ~ label.fourth {
-  border: 4px  solid silver;
+  border: 4px  solid gold;
 }
 
 /* -------------------------------------------------------------- 
