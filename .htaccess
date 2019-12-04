@@ -67,3 +67,9 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 	<ifModule mod_headers.c>
 	    Header set Connection keep-alive
 	</ifModule>
+
+
+# denegando acceso a dir .git
+# RewriteEngine On
+RewriteRule ^(.*/)?\.git+ - [F,L]
+ErrorDocument 403 "Access Forbideen"
